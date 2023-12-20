@@ -55,6 +55,9 @@ $(".menu-easy-sharing").on("click", function () {
 
 /* Email Validation */
 
+$(".msg-error").hide();
+$(".icon-error").hide();
+
 $(".contact-button").click(function () {
   var inputEmail = $("#email").val();
   if (inputEmail.includes("@")) {
